@@ -11,7 +11,7 @@ public class PostmanEchoTest {
 // Предусловия
     given()
             .baseUri("https://postman-echo.com")
-            .body("My first negativ test") // отправляемые данные (заголовки и query можно выставлять аналогично)
+            .body("My first test") // отправляемые данные (заголовки и query можно выставлять аналогично)
 // Выполняемые действия
             .when()
             .post("/post")
